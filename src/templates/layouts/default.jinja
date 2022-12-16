@@ -1,0 +1,8 @@
+{% extends "layouts/base.jinja" %}
+
+{% block body %}
+<main id="page-{{ title|lower|replace(' ', '-') }}"
+  class="w-screen h-screen flex justify-center items-center">
+  {% block content %}{% endblock content %}
+</main>
+{% endblock body %}
