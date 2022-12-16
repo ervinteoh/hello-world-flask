@@ -4,7 +4,8 @@
   "description": "This is a Flask app that serves simple demo pages.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack watch --mode=development",
+    "build": "webpack --stats verbose"
   },
   "repository": {
     "type": "git",
