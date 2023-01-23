@@ -1,4 +1,5 @@
 import sqlalchemy as sa
+
 from src.extensions import db
 
 
@@ -12,4 +13,4 @@ class User(db.Model):
     updated_on = sa.Column(sa.DateTime, default=sa.func.now(), onupdate=sa.func.now())
 
     def __repr__(self):
-        return f'<User {self.firstname}>'
+        return f"<User {self.firstname}>"
