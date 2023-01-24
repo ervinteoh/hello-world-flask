@@ -1,7 +1,7 @@
-# Flask Hello World
+# Hello World Flask
 This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves simple demo pages.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ervinteoh/flask-hello-world)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ervinteoh/hello-world-flask)
 
 ## Features
 

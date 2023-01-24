@@ -1,13 +1,13 @@
 from flask import Flask
 
-from src import extensions, models
-from src.settings import AppConfig
+from src import extensions, models, settings
 from src.views import public
 
 
 def create_app() -> Flask:
     app = Flask(__name__)
-    app.config.from_object(AppConfig())
+    config = settings.get_config()
+    app.config.from_object(config)
     app.url_map.strict_slashes = False
 
     register_extensions(app)
