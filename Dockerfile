@@ -13,8 +13,6 @@ RUN npm run build
 FROM python:3.9-alpine
 
 WORKDIR /usr/src/app
-ARG DATABASE_URL
-ENV DATABASE_URL=${DATABASE_URL}
 ENV FLASK_APP=src:create_app()
 
 COPY requirements.txt requirements.txt
